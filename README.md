@@ -18,6 +18,8 @@ Example `.env`:
 DASHSCOPE_API_KEY=your_api_key_here
 ```
 
+If the `dashscope` Python package is not installed, the app will automatically fall back to the local heuristic tutor mode even if `DASHSCOPE_API_KEY` is present.
+
 ## Test
 
 ```powershell
