@@ -5,11 +5,17 @@ Local-first Streamlit tutor for university courses. It ingests course PDFs into 
 ## Run
 
 1. Activate a Python environment with the dependencies in `requirements.txt`.
-2. Set `DASHSCOPE_API_KEY` if you want the live DashScope/Qwen tutor instead of the built-in fallback mode.
+2. Create a `.env` file in the project root or set `DASHSCOPE_API_KEY` in your shell if you want the live DashScope/Qwen tutor instead of the built-in fallback mode.
 3. Start the app:
 
 ```powershell
 streamlit run app.py
+```
+
+Example `.env`:
+
+```dotenv
+DASHSCOPE_API_KEY=your_api_key_here
 ```
 
 ## Test
